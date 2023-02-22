@@ -1,4 +1,29 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{EEC8ED34-0907-4802-B932-96A9B3192FE4}|https">
+﻿<Properties StartupConfiguration="{EEC8ED34-0907-4802-B932-96A9B3192FE4}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ClientApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClientApi/Program.cs">
+    <Files>
+      <File FileName="ClientApi/Program.cs" Line="14" Column="1" />
+      <File FileName="ClientApi/Client.cs" />
+      <File FileName="ClientApi/ClientDb.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClientApi" expanded="True">
+            <Node name="ClientApi" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
 </Properties>
