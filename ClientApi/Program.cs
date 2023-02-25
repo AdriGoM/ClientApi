@@ -6,6 +6,8 @@ builder.Services.AddDbContext<ClientDb>(opt => opt.UseInMemoryDatabase("ClienLis
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 
+app.MapGet("/", () => "Client API");
+
 app.MapGet("/clients", async (ClientDb db) =>
     await db.Clients.ToListAsync());
 
@@ -65,4 +67,15 @@ app.MapPost("client/deactivate/{id}", async(Guid id, ClientDb db) =>
 
 
 app.Run();
+
+namespace ClientApi.Program
+{
+    public class Program
+    {
+        public void main() { }
+
+    }
+}
+
+
 
